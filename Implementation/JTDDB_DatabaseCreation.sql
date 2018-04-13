@@ -1,0 +1,6 @@
+IF EXISTS (SELECT name FROM master.dbo.sysdatabases WHERE name = 'JTDDB')
+DROP DATABASE [JTDDB]
+CREATE DATABASE [JTDDB];
+
+USE [JTDDB];
+

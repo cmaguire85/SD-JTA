@@ -1,0 +1,32 @@
+11.0  
+30  
+1       SQLCHAR       0       300       "\t"     1     JTAIdentifier	SQL_Latin1_General_CP1_CI_AS  
+2       SQLCHAR       0       300     "\t"     2     JTAScalar             SQL_Latin1_General_CP1_CI_AS  
+3       SQLCHAR       0       300     "\t"     3     TaskStatement        SQL_Latin1_General_CP1_CI_AS  
+4       SQLCHAR       0       300       "\t"     4     DL     SQL_Latin1_General_CP1_CI_AS  
+5       SQLCHAR       0       300     "\t"     5     DP             SQL_Latin1_General_CP1_CI_AS  
+6       SQLCHAR       0       300     "\t"     6     I        SQL_Latin1_General_CP1_CI_AS  
+7       SQLCHAR       0       300       "\t"     7     F     SQL_Latin1_General_CP1_CI_AS 
+8       SQLCHAR       0       300     "\t"     8     KnowledgeorPerformance             SQL_Latin1_General_CP1_CI_AS  
+9       SQLCHAR       0       300       "\t"     9     ActivitySub-ActivityTask     SQL_Latin1_General_CP1_CI_AS  
+10       SQLCHAR       0       300     "\t"     10     AcademyPerformanceProficiency             SQL_Latin1_General_CP1_CI_AS  
+11       SQLCHAR       0       300     "\t"     11     AcademyKnowledgeProficiency        SQL_Latin1_General_CP1_CI_AS  
+12       SQLCHAR       0       300       "\t"     12     FacilityPerformanceProficiency     SQL_Latin1_General_CP1_CI_AS  
+13       SQLCHAR       0       300     "\t"     13     FacilityKnowledgeProficiency             SQL_Latin1_General_CP1_CI_AS  
+14       SQLCHAR       0       300     "\t"     14     OJTPerformanceProficiency        SQL_Latin1_General_CP1_CI_AS  
+15       SQLCHAR       0       300       "\t"     15     OJTKnowledgeProficiency     SQL_Latin1_General_CP1_CI_AS 
+16       SQLCHAR       0       300     "\t"     16     DIFInstructionalMethod             SQL_Latin1_General_CP1_CI_AS  
+17       SQLCHAR       0       300       "\t"     17     InitialTrainingPriorityRating     SQL_Latin1_General_CP1_CI_AS  
+18       SQLCHAR       0       300     "\t"     18     RefresherTrainingPriorityRating            SQL_Latin1_General_CP1_CI_AS  
+19       SQLCHAR       0       300     "\t"     19     Tower        SQL_Latin1_General_CP1_CI_AS  
+20       SQLCHAR       0       300       "\t"     20     TRACON     SQL_Latin1_General_CP1_CI_AS  
+21       SQLCHAR       0       300     "\t"     21    EnRoute            SQL_Latin1_General_CP1_CI_AS  
+22       SQLCHAR       0       300     "\t"     22     AcademyFacilityOJT        SQL_Latin1_General_CP1_CI_AS  
+23       SQLCHAR       0       300       "\t"     23     Orders/Manuals/Procedures/Instructions     SQL_Latin1_General_CP1_CI_AS 
+24       SQLCHAR       0       600     "\t"     24     ARTCCTool/Procedure             SQL_Latin1_General_CP1_CI_AS  
+25       SQLCHAR       0       300       "\t"     25     ATCTTool/Procedure     SQL_Latin1_General_CP1_CI_AS  
+26       SQLCHAR       0       300     "\t"     26     TRACONTool/Procedure             SQL_Latin1_General_CP1_CI_AS  
+27       SQLCHAR       0       300     "\t"     27     SMEDeliveryMethod        SQL_Latin1_General_CP1_CI_AS  
+28       SQLCHAR       0       300       "\t"     28     InstructionalTime     SQL_Latin1_General_CP1_CI_AS  
+29       SQLCHAR       0       300     "\t"     29     FileName             SQL_Latin1_General_CP1_CI_AS  
+30       SQLCHAR       0       300    "\r\n"     30    FileRow        SQL_Latin1_General_CP1_CI_AS  
