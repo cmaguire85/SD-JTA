@@ -1,18 +1,13 @@
 USE [JTDDB]
 GO
 
-if exists(select * from sys.views where name='vw_ATCJobTaskItem' and type='v')
-drop view [ATC].[vw_ATCJobTaskItem];
-go
-
-/****** Object:  View [ATC].[vw_ATCJobTaskItem]    Script Date: 4/6/2018 10:11:40 PM ******/
+/****** Object:  View [ATC].[vw_ATCJobTaskItem]    Script Date: 5/9/2018 12:03:53 PM ******/
 SET ANSI_NULLS ON
 GO
 
 SET QUOTED_IDENTIFIER ON
 GO
 
---Create Specific Import Table
 CREATE VIEW [ATC].[vw_ATCJobTaskItem]
 AS 
 SELECT 
@@ -37,18 +32,9 @@ jti.[Tower],
 jti.[TRACON],
 jti.[EnRoute],
 jti.[FileName],
-CAST(jti.[FileRow] AS int) AS FileRow,
-jtih.[ActivityScalar],
-jtih.[SubActivityScalar],
-jtih.[TaskScalar],
-jtih.[SubTaskScalar],
-jtih.[StepScalar],
-jtih.[ElementScalar]
+CAST(jti.[FileRow] AS int) AS FileRow
 FROM [ATC].[ATCJobTaskItem] jti
-LEFT JOIN [ATC].[ATCJobTaskItemKSAO] ksao ON jti.[JTAIdentifier] = ksao.[Unique ID] AND jti.[FileName] = ksao.[FileName]
-LEFT JOIN [ATC].[ATCJobTaskItemHierarchy] jtih
-ON jti.[JTAScalar] = jtih.[JTA Scalar]
-
+LEFT JOIN [ATC].[ATCJobTaskItemKSAO] ksao ON jti.[JTAIdentifier] = ksao.[Scalar Number] AND jti.[FileName] = ksao.[FileName]
 
 GO
 

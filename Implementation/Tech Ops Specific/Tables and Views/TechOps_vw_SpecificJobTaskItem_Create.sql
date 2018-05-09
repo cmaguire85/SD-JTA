@@ -1,16 +1,13 @@
 USE [JTDDB]
 GO
 
-if exists(select * from sys.views where name='vw_SpecificJobTaskItem' and type='v')
-drop view [TechOps].[vw_SpecificJobTaskItem];
-go
-
-/****** Object:  View [TechOps].[SpecificJobTaskItem]    Script Date: 4/6/2018 10:11:40 PM ******/
+/****** Object:  View [TechOps].[vw_SpecificJobTaskItem]    Script Date: 5/9/2018 2:35:45 PM ******/
 SET ANSI_NULLS ON
 GO
 
 SET QUOTED_IDENTIFIER ON
 GO
+
 
 --Create Specific Import Table
 CREATE VIEW [TechOps].[vw_SpecificJobTaskItem]
@@ -117,7 +114,7 @@ jti.[Tech Ops Specialist - Navigation (TOS-N)],
 jti.[Tech Ops Specialist - Surveillance (TOS-S)],
 jti.[Tech Ops Specialist - Communication (TOS-C)],
 jti.[Tech Ops Managers (TO-M)],
-jti.[Tech Ops Suprevisors (TO-S)],
+jti.[Tech Ops Suprevisors (TO-S)] AS [Tech Ops Supervisors (TO-S)],
 jti.[Technician in Depth (TID)],
 jti.[Service Operation Center (SOC)],
 jti.[Operation Control Center - Specialist (OCC-S)],
@@ -134,6 +131,7 @@ jtih.[ElementScalar]
 FROM [TechOps].[SpecificJobTaskItem] jti
 LEFT JOIN [TechOps].[SpecificJobTaskItemHierarchy] jtih
 ON jti.[JTA Scalar] = jtih.[JTA Scalar]
+
 
 
 GO

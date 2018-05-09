@@ -1,0 +1,21 @@
+CREATE TABLE [ATC].[ATCJobTaskItemKSAO_1](
+	[Unique ID] [varchar](300) NULL,
+	[Scalar] [varchar](300) NULL,
+	[Statement] [varchar](800) NULL,
+	[A/SA/T/ST/S/E] [varchar](300) NULL,
+	[K1.1] [varchar](300) NULL,
+	[K1.3] [varchar](300) NULL,
+	[K1.6] [varchar](300) NULL,
+	[K3.2] [varchar](300) NULL,
+	[K5.1] [varchar](300) NULL,
+	[K5.3] [varchar](300) NULL,
+	[K21.3] [varchar](300) NULL,
+	[K21.4] [varchar](300) NULL,
+	[Sk15] [varchar](300) NULL,
+	[Sk16] [varchar](300) NULL,
+	[Sk19] [varchar](300) NULL,
+	[Sk24] [varchar](300) NULL,
+	[Sk25] [varchar](300) NULL,
+	[FileName] [varchar](300) NULL,
+	[FileRow] [varchar](500) NULL
+)
