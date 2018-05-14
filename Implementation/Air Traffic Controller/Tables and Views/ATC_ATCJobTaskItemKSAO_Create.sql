@@ -13,9 +13,9 @@ GO
 
 CREATE TABLE [ATC].[ATCJobTaskItemKSAO](
 	[ATCJobTaskItemKSAOID] [int] IDENTITY(1,1) NOT NULL,
-	[Unique ID] [varchar](8) NULL,
+	[Unique ID] [varchar](300) NULL,
 	[Scalar Number] [varchar](300) NULL,
-	[Statement] [int] NULL,
+	[Statement] [varchar](300) NULL,
 	[A/SA/T/ST/S/E] [varchar](1) NULL,
 	[K1.1 FAA organizational structure] [varchar](300) NULL,
 	[K1.2 Evolution of air traffic control (ATC)] [varchar](300) NULL,
@@ -263,6 +263,7 @@ CREATE TABLE [ATC].[ATCJobTaskItemKSAO](
 	[Sk57,  Emergency Response Development/ 58, Selection] [varchar](300) NULL,
 	[Sk59,  Emergency Response Implementation] [varchar](300) NULL,
 	[FileName] [varchar](300) NULL,
+	[RowNumber] [varchar](300) NULL
 	[InsertBy] [varchar](50) NULL,
 	[InsertDT] [datetime] NULL,
 	[UpdateBy] [varchar](50) NULL,
